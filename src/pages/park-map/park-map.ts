@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
 /*
   Generated class for the ParkMap page.
@@ -13,10 +13,10 @@ import { NavController } from 'ionic-angular';
 })
 export class ParkMapPage {
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('Hello ParkMapPage Page');
+    console.log('ionViewDidLoad ParkMapPage');
   }
 
 }
