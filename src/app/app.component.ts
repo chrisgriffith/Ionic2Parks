@@ -3,10 +3,11 @@ import { Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { TabsPage } from '../pages/tabs/tabs';
-
+import { ParkData } from '../providers/park-data';
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  providers: [ ParkData ]
 })
 export class MyApp {
   rootPage = TabsPage;

@@ -2,15 +2,17 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { ParkListPage } from '../pages/park-list/park-list';
-import { ParkMapPage} from '../pages/park-map/park-map';
+import { ParkMapPage } from '../pages/park-map/park-map';
 import { TabsPage } from '../pages/tabs/tabs';
+import { ParkDetailsPage } from '../pages/park-details/park-details';
 
 @NgModule({
   declarations: [
     MyApp,
     ParkListPage,
     ParkMapPage,
-    TabsPage
+    TabsPage,
+    ParkDetailsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -20,7 +22,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     MyApp,
     ParkListPage,
     ParkMapPage,
-    TabsPage
+    TabsPage,
+    ParkDetailsPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
