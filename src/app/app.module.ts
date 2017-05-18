@@ -1,6 +1,6 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule } from '@angular/http'
+import { HttpModule } from '@angular/http';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -33,4 +33,4 @@ import { TabsPage } from '../pages/tabs/tabs';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
-export class AppModule {}
+export class AppModule { }
