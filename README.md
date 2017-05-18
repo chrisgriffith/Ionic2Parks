@@ -8,5 +8,8 @@ This is a starter template for the Ionic2Parks app from [Mobile App Development 
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start Ionic2Parks https://github.com/chrisgriffith/Ionic2Parks --v2
+$ ionic start Ionic2Parks https://github.com/chrisgriffith/Ionic2Parks
+$ cd Ionic2Parks
+$ npm install
 ```
+Note: There are additional steps outlined in the book that need to be followed in order for this final version of the app to work.
