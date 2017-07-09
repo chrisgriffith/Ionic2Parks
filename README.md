@@ -1,6 +1,6 @@
 # Ionic2Parks
 
-This is a starter template for the Ionic2Parks app from [Mobile App Development with Ionic 2](http://www.ionic2book.com/) published by O'Reilly.
+This is a starter template for the Ionic2Parks app from [Mobile App Development with Ionic 2](http://www.ionic2book.com/) published by O'Reilly Press.
 
 ## How to use this template
 
