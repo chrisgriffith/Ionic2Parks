@@ -14,13 +14,12 @@ export class ParkMapPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public platform: Platform, public parkData: ParkData) {
     this.map = null;
-    this.platform.ready().then(() => {
-      this.initializeMap();
-    });
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ParkMapPage');
+    this.platform.ready().then(() => {
+      this.initializeMap();
+    });
   }
   initializeMap() {
     let minZoomLevel = 3;
